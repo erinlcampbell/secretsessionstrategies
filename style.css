@@ -1,0 +1,323 @@
+body{
+    background-color: #AFEEEE;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    
+   
+    
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    margin: 0px;
+    background-image: url('header_back.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border-bottom: 1px solid black;
+}
+
+.top2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 185px;
+    margin: 0px;
+    background-image: url('header_back.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border-bottom: 1px solid black;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    margin: 0px;
+    
+    gap: 45vh;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+.web-container{
+    margin-top: 175px;  
+    margin-left: 20px;  
+    margin-right: 20px; 
+    background-color: #AFEEEE;
+    font-family: sans-serif;
+    width: 100%;
+    flex-direction: column;
+    gap: 500px;
+}
+
+.web-container2{
+    margin-top: 225px;  
+    margin-left: 20px;  
+    margin-right: 20px; 
+    background-color: #AFEEEE;
+    font-family: sans-serif;
+    width: 100%;
+    flex-direction: column;
+    gap: 500px;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+}
+
+.logo2{
+    width:150px;
+    height: 150px;
+}
+
+img{
+    width:20px;
+    height: 20px;  
+}
+
+iframe{
+    border: 10px solid white;
+}
+
+figcaption {
+    font-family: sans-serif;
+    color: gray
+    
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 120px;
+  }
+
+  .quote-1{
+    justify-self: flex-end ;
+    margin-left: 80px;
+    font-style: italic;
+    color: #FF69B4;
+    border: 5px solid yellow;
+    padding: 20px;
+    background-color: white;
+  }
+
+    .quote-2{
+       font-style: italic;
+       color: #FF8C00;
+       margin-left: 80px;
+       border: 5px solid mediumaquamarine;
+       padding: 20px;
+       background-color: white;
+    }
+
+    ul{
+        margin-right: 100px;
+        font-size: 20px;
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        border: 5px solid plum;
+    }
+
+    .row-2{
+        display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    }
+
+    .blog{
+        width: 300px;
+        height: 200px;
+        border: 5px solid #FF8C00;
+    }
+    .dm{
+        width: 350px;
+        height: 400px;
+        margin-left: 100px;
+        border: 5px solid #FF8C00;
+        margin-top: 40px;
+    }
+
+    .inner-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .videos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        margin-right: 50px;
+        
+    }
+
+    video{
+        border: 7px solid white;
+        padding-top: 0px;
+    }
+
+    .wiki{
+        width: 700px;
+        height: 600px;
+        border: 7px solid white;
+    }
+
+    .top-text{
+        font-size: 40px;
+        justify-self: center;
+        color: white;
+        margin-bottom: 20px;
+        font-style: bold;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+    .gallery2{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+    .gallery3{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(500px, 1fr));
+        gap: 10px;
+        margin-right: 135px;
+        margin-left: 100px;
+    }
+    
+    .griditem {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+        background-color: white;
+    }
+
+    @font-face {
+        font-family: 'ErasFont'; /* Name your font family */
+        src: url('Pistilli-Roman.otf'); /* Locate the .ttf file within your directory*/
+      }
+
+    .era-image1{
+        background-image: url('download1.jpg');    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+        height: 40vh;
+
+        align-content: center;
+        color: white;
+        font-size: 40px;
+        font-style: bold;
+        font-family: 'ErasFont','Times New Roman', Times, serif;
+    }
+
+    .background-tint{
+        filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(330deg);
+
+    }
+
+    .era-image2{
+        background-image: url('download2.jpg');    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+        height: 40vh;
+        align-content: center;
+        color: white;
+        font-size: 40px;
+        font-style: bold;
+        font-family: 'ErasFont','Times New Roman', Times, serif;
+        
+    }
+
+   
+
+    .era-image3{
+        background-image: url('download3.jpeg');    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+        height: 40vh;
+        align-content: center;
+        color: white;
+        font-size: 40px;
+        font-style: bold;
+        font-family: 'ErasFont','Times New Roman', Times, serif;
+    }
+
+    .era-image4{
+        background-image: url('download4.jpg');    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+        height: 40vh;
+        align-content: center;
+        color: white;
+        font-size: 40px;
+        font-style: bold;
+        font-family: 'ErasFont','Times New Roman', Times, serif;
+        
+    }
+
+    .photo{
+        width: 100%;
+        height: 100%
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .taylurking{
+        width: 81%;
+        height: 50px;
+        padding: 5px;
+        border: 2px solid #ff56a5;
+        color:#c548e1;
+        background-color: white;
+        margin-top: 30px;
+        font-size: 20px;
+        margin-left: 70px;
+    }
